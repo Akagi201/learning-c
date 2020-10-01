@@ -1,7 +1,9 @@
+/* Kahan's Summation Algorithm*/
+
 #include <stdio.h>
 #include <math.h>
 
-// Kahan Sum
+// Kahan's Sum
 double kahan_sum(double *a, int length) {
     double sum = a[1];
     double c = 0.0, y, t;
