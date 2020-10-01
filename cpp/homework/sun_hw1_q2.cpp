@@ -1,3 +1,5 @@
+/* Kahan's Summation Algorithm*/
+
 #include <stdio.h>
 #include <math.h>
 
